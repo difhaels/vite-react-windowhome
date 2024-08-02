@@ -1,16 +1,16 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
+import '../assets/css/hero.css';
 
 function Hero() {
   return (
-    <div className="bg-light text-center py-5">
+    <div className="bg-dark text-white text-center py-5 hero-section">
       <Container>
-        <h1>Welcome to Our Landing Page</h1>
+        <h1>Selamat Datang di Website</h1>
+        <h2>RKA | Rumah Kusen Aluminium</h2>
+        <div className="estetik-line"></div>
         <p>
-          This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-        </p>
-        <p>
-          <Button variant="primary">Learn more</Button>
+          Kami merupakan spesialis jasa pembuatan dan pemasangan Kusen Pintu Aluminium, dan Jendela Aluminium. Segera Hubungi Kami untuk informasi selengkapnya.
         </p>
       </Container>
     </div>
