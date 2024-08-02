@@ -6,8 +6,8 @@ function Footer() {
   return (
     <footer className="bg-dark text-white py-4">
       <Container>
-        <Row className="justify-content-start">
-          <Col md={3}>
+        <Row className="justify-content-start mx-2">
+          <Col md={3} className="col-12 mb-5">
             <h5>Company Logo</h5>
             <img src="path/to/logo.png" alt="Company Logo" className="mb-2" />
             <div>
@@ -15,17 +15,17 @@ function Footer() {
               <a href="https://instagram.com" className="text-white mx-2"><FaInstagram /></a>
             </div>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="col-12 mb-5">
             <h5>Kontak</h5>
             <p><FaWhatsapp /> +62 812 3456 7890</p>
             <p><FaPhone /> (021) 123-4567</p>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="col-12 mb-5">
             <h5>Workshop</h5>
             <p><FaMapMarkerAlt /> Jalan Merpati No. 12, Jakarta</p>
             <p><FaMapMarkerAlt /> Jalan Kenari No. 34, Bogor</p>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="col-12 mb-5">
             <h5>Area Layanan</h5>
             <p>Jabodetabek</p>
           </Col>
