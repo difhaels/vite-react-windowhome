@@ -1,0 +1,20 @@
+.card-custom {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%; /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .card-custom:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Thicker shadow on hover */
+  }
+  
+  .card-title-custom {
+    font-size: 1rem; /* Adjust the text size as needed */
+  }
+  
+  .icon-custom {
+    font-size: 2.5rem; /* Adjust the icon size as needed */
+  }
+  
