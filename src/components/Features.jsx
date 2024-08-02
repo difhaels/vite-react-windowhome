@@ -1,38 +1,41 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { FaUsers, FaDollarSign, FaRocket, FaShieldAlt } from 'react-icons/fa';
 
 function Features() {
   return (
     <Container className="my-5">
       <h2 className="text-center">Features</h2>
       <Row>
-        <Col md={4}>
-          <Card className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={12} className="mb-4">
+          <Card className="text-center">
             <Card.Body>
-              <Card.Title>Feature 1</Card.Title>
-              <Card.Text>
-                Description of feature 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Card.Text>
+              <FaUsers size={50} className="mb-3 text-primary" />
+              <Card.Title>Tim Profesional</Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4}>
-          <Card className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={12} className="mb-4">
+          <Card className="text-center">
             <Card.Body>
-              <Card.Title>Feature 2</Card.Title>
-              <Card.Text>
-                Description of feature 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Card.Text>
+              <FaDollarSign size={50} className="mb-3 text-primary" />
+              <Card.Title>Harga Terjangkau</Card.Title>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4}>
-          <Card className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={12} className="mb-4">
+          <Card className="text-center">
             <Card.Body>
-              <Card.Title>Feature 3</Card.Title>
-              <Card.Text>
-                Description of feature 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </Card.Text>
+              <FaRocket size={50} className="mb-3 text-primary" />
+              <Card.Title>Proses Cepat</Card.Title>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col lg={3} md={6} sm={6} xs={12} className="mb-4">
+          <Card className="text-center">
+            <Card.Body>
+              <FaShieldAlt size={50} className="mb-3 text-primary" />
+              <Card.Title>Bergaransi</Card.Title>
             </Card.Body>
           </Card>
         </Col>
