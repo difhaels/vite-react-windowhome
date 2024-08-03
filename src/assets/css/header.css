@@ -1,0 +1,6 @@
+.brand-logo {
+    height: 1.2em; /* Mengatur tinggi gambar menjadi 1.2 kali tinggi teks */
+    margin-right: 0.5rem; /* Menambahkan jarak antara gambar dan teks */
+    vertical-align: middle; /* Menyelaraskan gambar dengan teks secara vertikal */
+  }
+  

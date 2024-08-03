@@ -1,11 +1,19 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import '../assets/css/header.css';
+import logo from '../assets/logo/logo.svg';
 
 function Header() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#">LandingPage</Navbar.Brand>
+        <Navbar.Brand href="#">
+          <img
+            src={logo}
+            alt="Logo"
+            className="brand-logo"
+          />WindowHome
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
