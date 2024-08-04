@@ -15,7 +15,7 @@ function Superiority() {
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={worker} alt="Worker" className="mb-3 text-primary icon-custom" />
-              <Card.Title className="card-title-custom">Harga Terjangkau</Card.Title>
+              <Card.Title className="card-title-custom">Tim Profesional</Card.Title>
             </Card.Body>
           </Card>
         </Col>

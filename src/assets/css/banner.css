@@ -1,0 +1,6 @@
+.banner {
+    width: 100%;
+    height: auto;
+    display: block; /* Menghilangkan margin bawaan untuk <img> */
+  }
+  
