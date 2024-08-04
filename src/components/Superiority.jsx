@@ -1,9 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaUsers, FaDollarSign, FaRocket, FaShieldAlt } from 'react-icons/fa';
-import '../assets/css/features.css';
+import '../assets/css/Superiority.css';
+import worker from '../assets/icons/worker.svg';
+import cheap from '../assets/icons/cheap.svg';
+import fast from '../assets/icons/fast.svg';
+import guarantee from '../assets/icons/guarantee.svg';
 
-function Features() {
+function Superiority() {
   return (
     <Container className="my-5">
       <h2 className="text-center mb-4">Keunggulan Rumah Kusen Aluminium</h2>
@@ -11,15 +14,7 @@ function Features() {
         <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
-              <FaUsers className="mb-3 text-primary icon-custom" />
-              <Card.Title className="card-title-custom">Tim Profesional</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
-          <Card className="text-center card-custom">
-            <Card.Body>
-              <FaDollarSign className="mb-3 text-primary icon-custom" />
+              <img src={worker} alt="Worker" className="mb-3 text-primary icon-custom" />
               <Card.Title className="card-title-custom">Harga Terjangkau</Card.Title>
             </Card.Body>
           </Card>
@@ -27,7 +22,15 @@ function Features() {
         <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
-              <FaRocket className="mb-3 text-primary icon-custom" />
+              <img src={cheap} alt="Cheap" className="mb-3 text-primary icon-custom" />
+              <Card.Title className="card-title-custom">Harga Terjangkau</Card.Title>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
+          <Card className="text-center card-custom">
+            <Card.Body>
+              <img src={fast} alt="Fast" className="mb-3 text-primary icon-custom" />
               <Card.Title className="card-title-custom">Proses Cepat</Card.Title>
             </Card.Body>
           </Card>
@@ -35,7 +38,7 @@ function Features() {
         <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
-              <FaShieldAlt className="mb-3 text-primary icon-custom" />
+              <img src={guarantee} alt="Guarantee" className="mb-3 text-primary icon-custom" />
               <Card.Title className="card-title-custom">Bergaransi</Card.Title>
             </Card.Body>
           </Card>
@@ -45,4 +48,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default Superiority;
