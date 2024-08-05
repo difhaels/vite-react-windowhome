@@ -22,8 +22,11 @@ function Footer() {
           </Col>
           <Col md={3} className="col-12 mb-5">
             <h5>Workshop</h5>
-            <p><FaMapMarkerAlt /> Jalan Merpati No. 12, Jakarta</p>
-            <p><FaMapMarkerAlt /> Jalan Kenari No. 34, Bogor</p>
+            <div className='d-flex'>
+              <FaMapMarkerAlt size={30} className="me-3" />
+              <p  className="me-3"> RT001, RW05, No257, KP.Cibitung, Kel.Padurenan, Kec.Mustika Jaya, Kota Bekasi</p>
+            </div>
+            
           </Col>
           <Col md={3} className="col-12 mb-5">
             <h5>Area Layanan</h5>
