@@ -5,9 +5,9 @@ import logo from '../assets/logo/logo.png';
 
 function Header() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#" className="navbar-brand-custom">
+        <Navbar.Brand href="/" className="navbar-brand-custom">
           <img
             src={logo}
             alt="Logo"
