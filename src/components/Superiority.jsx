@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import '../assets/css/Superiority.css';
+import '../assets/css/superiority.css';
 import worker from '../assets/icons/worker.svg';
 import cheap from '../assets/icons/cheap.svg';
 import fast from '../assets/icons/fast.svg';
