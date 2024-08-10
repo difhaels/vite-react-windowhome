@@ -26,7 +26,7 @@ export default function Products() {
 
   return (
     <Container className="my-5">
-      <h2 className="text-center produk-title">PRODUK</h2>
+      <h2 className="text-center produk-title mb-4">PRODUK</h2>
       <div className="d-flex justify-content-start gap-3 align-items-center mb-4">
         <h5 className="mb-0">Sort by Category:</h5>
         <DropdownButton id="dropdown-basic-button" title={selectedCategory} onSelect={handleSelect}>
@@ -40,7 +40,7 @@ export default function Products() {
       </div>
       {filteredCategories.map((category, index) => (
         <div key={index} className="mb-5">
-          <h4 className="category-title">{category.name}</h4>
+          <h5 className="category-title">{category.name}</h5>
           <Row>
             {category.images.map((image, idx) => (
               <Col key={idx} md={2} sm={6} xs={6} className="mb-4">
