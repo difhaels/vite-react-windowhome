@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Superiority from '../components/Superiority';
 import Banner from '../components/Banner';
 import MiniServices from '../components/MiniServices';
+import MiniProducts from '../components/MiniProducts';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Superiority />
       <MiniServices />
+      <MiniProducts />
     </>
   );
 }
