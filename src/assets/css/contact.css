@@ -1,9 +1,17 @@
 .contact-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
     background-color: #f4f4f4;
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px; 
+        flex-direction: column; 
+    }
+}
+
 
 .contact-left, .contact-right {
     flex: 1;

@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Contact() {
   return (
-    <div>
+
       <Row className="contact-container">
         <Col xs={12} md={6} className="mb-4">
           <ContactLeft />
@@ -14,6 +14,6 @@ export default function Contact() {
           <ContactRight />
         </Col>
       </Row>
-    </div>
+
   );
 }
