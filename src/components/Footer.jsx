@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import logo from '../assets/logo/logo.png';
+import '../assets/css/footer.css'
 
 function Footer() {
   return (
@@ -8,8 +10,10 @@ function Footer() {
       <Container>
         <Row className="justify-content-start mx-2">
           <Col md={3} className="col-12 mb-5">
-            <h5>Company Logo</h5>
-            <img src="path/to/logo.png" alt="Company Logo" className="mb-2" />
+            <div className='d-flex justify-content-start  align-items-center mb-4'>
+              <img src={logo} alt="Company Logo" className="mb-2 logo" />
+              <h5>WINDOW HOME</h5>
+            </div>
             <div>
               <a href="https://facebook.com" className="text-white mx-2"><FaFacebook /></a>
               <a href="https://instagram.com" className="text-white mx-2"><FaInstagram /></a>
