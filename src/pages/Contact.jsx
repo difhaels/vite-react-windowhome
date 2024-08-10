@@ -1,7 +1,7 @@
 import '../assets/css/contact.css';
 import ContactLeft from "../components/ContactLeft";
 import ContactRight from "../components/ContactRight";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 export default function Contact() {
   return (
