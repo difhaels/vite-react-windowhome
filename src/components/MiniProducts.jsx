@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
+import { Container, Row, Col} from "react-bootstrap";
 import image from "../assets/products/pintuKaca1.png";
 import "../assets/css/miniProducts.css";
 
 export default function MiniProducts() {
+    const navigate = useNavigate();
     return (<div className="container-mini-products">
         <Container className="px-5 pt-4">
             <div className="text-center">
@@ -11,42 +13,42 @@ export default function MiniProducts() {
             </div>
             <Row>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <a href="/products">
+                    <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
