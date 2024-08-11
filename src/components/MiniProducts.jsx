@@ -11,28 +11,44 @@ export default function MiniProducts() {
             </div>
             <Row>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
                 <Col lg={2} xs={4} className="mb-4">
-                    <img src={image} alt="" className="img-fluid" />
+                    <a href="/products">
+                        <img src={image} alt="" className="img-fluid" />
+                    </a>
                 </Col>
             </Row>
             <p className="text-center">tap to see more...</p>
