@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import card1 from "../assets/products/pintuKaca1.png"
+import card1 from "../assets/products/pintuKaca1.png";
+import { useNavigate } from 'react-router-dom';
 
 export default function MiniServices() {
+    const navigate = useNavigate(); // Initialize useNavigate
     return (<>
         <Container className="my-5">
             <div className="text-center">
@@ -13,7 +15,7 @@ export default function MiniServices() {
                     <Card className="text-center">
                         <Card.Body>
                             <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3">Pemasangan</Button>
+                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -21,7 +23,7 @@ export default function MiniServices() {
                     <Card className="text-center">
                         <Card.Body>
                             <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3">Pemasangan</Button>
+                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -29,7 +31,7 @@ export default function MiniServices() {
                     <Card className="text-center">
                         <Card.Body>
                             <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3">Pemasangan</Button>
+                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -37,7 +39,7 @@ export default function MiniServices() {
                     <Card className="text-center">
                         <Card.Body>
                             <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3">Pemasangan</Button>
+                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
