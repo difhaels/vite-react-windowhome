@@ -15,7 +15,7 @@ export default function MiniServices() {
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={card1} />
-                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -23,7 +23,7 @@ export default function MiniServices() {
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={card1} />
-                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -31,7 +31,7 @@ export default function MiniServices() {
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={card1} />
-                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -39,7 +39,7 @@ export default function MiniServices() {
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={card1} />
-                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
                 </Col>
