@@ -12,34 +12,34 @@ export default function MiniServices() {
             </div>
             <Row>
                 <Col lg={3} xs={6} className="mb-4">
-                    <Card className="text-center">
+                    <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg={3} xs={6} className="mb-4">
-                    <Card className="text-center">
+                    <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg={3} xs={6} className="mb-4">
-                    <Card className="text-center">
+                    <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col lg={3} xs={6} className="mb-4">
-                    <Card className="text-center">
+                    <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" src={card1} />
-                            <Button variant="success" className="mt-3" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
+                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>Pemasangan</Button>
                         </Card.Body>
                     </Card>
                 </Col>

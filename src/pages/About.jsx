@@ -26,6 +26,7 @@ function About() {
             allowFullScreen=""
             loading="lazy"
             title="Lokasi Kami"
+            className='border border-dark'
           ></iframe>
         </Col>
       </Row>
