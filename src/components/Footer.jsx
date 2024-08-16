@@ -39,7 +39,7 @@ function Footer() {
         </Row>
         <Row>
           <Col className="text-center mt-3">
-            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            <p>&copy; 2024 WindowHome. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
