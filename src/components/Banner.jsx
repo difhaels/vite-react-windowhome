@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../assets/banner/banner1.png';
+import banner from '../assets/banner/banner.svg';
 import '../assets/css/banner.css';
 
 export default function Banner() {
