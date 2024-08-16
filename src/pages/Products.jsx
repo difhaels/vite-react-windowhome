@@ -40,7 +40,7 @@ export default function Products() {
       </div>
       {filteredCategories.map((category, index) => (
         <div key={index} className="mb-5">
-          <h5 className="category-title">{category.name}</h5>
+          <p className="category-title">{category.name}</p>
           <Row>
             {category.images.map((image, idx) => (
               <Col key={idx} md={2} sm={6} xs={6} className="mb-4">
