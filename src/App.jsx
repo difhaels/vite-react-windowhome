@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/app.css';
 import ScrollToTop from './components/ScrollToTop';
+import Whatsapp from './components/Whatsapp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Whatsapp />
       <Footer/>
     </Router>
   );
