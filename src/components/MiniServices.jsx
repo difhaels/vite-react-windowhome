@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import card1 from "../assets/products/pintuKaca1.png";
+import pemasangan from "../assets/layanan/pemasangan.svg";
+import pintu from "../assets/layanan/pintu.svg";
+import kaca from "../assets/layanan/kaca.svg";
+import kusen from "../assets/layanan/kusen.svg";
 import { useNavigate } from 'react-router-dom';
 
 export default function MiniServices() {
@@ -14,7 +17,7 @@ export default function MiniServices() {
                 <Col lg={3} xs={6} className="mb-4">
                     <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Card.Img variant="top" className="rounded-0" src={pemasangan} />
                             <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
@@ -22,7 +25,7 @@ export default function MiniServices() {
                 <Col lg={3} xs={6} className="mb-4">
                     <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Card.Img variant="top" className="rounded-0" src={pintu} />
                             <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
@@ -30,7 +33,7 @@ export default function MiniServices() {
                 <Col lg={3} xs={6} className="mb-4">
                     <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Card.Img variant="top" className="rounded-0" src={kaca} />
                             <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
@@ -38,7 +41,7 @@ export default function MiniServices() {
                 <Col lg={3} xs={6} className="mb-4">
                     <Card className="text-center rounded-0">
                         <Card.Body>
-                            <Card.Img variant="top" className="rounded-0" src={card1} />
+                            <Card.Img variant="top" className="rounded-0" src={kusen} />
                             <Button variant="success" className="mt-3 rounded-0" onClick={()=>{navigate('/services')}}>{'Lihat Layanan>'}</Button>
                         </Card.Body>
                     </Card>
