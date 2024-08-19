@@ -4,6 +4,9 @@ import { Container, Row, Col} from "react-bootstrap";
 import image from "../assets/products/pintuKaca1.png";
 import "../assets/css/miniProducts.css";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function MiniProducts() {
     const navigate = useNavigate();
     return (<div className="container-mini-products">
