@@ -9,13 +9,13 @@ import guarantee from '../assets/icons/guarantee.svg';
 function Superiority() {
   return (
     <Container className="my-5">
-      <h2 className="text-center mb-4">Keunggulan Rumah Kusen Aluminium</h2>
+      <h3 className="text-center mb-4">Keunggulan Rumah Kusen Aluminium</h3>
       <Row className='g-1'>
         <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={worker} alt="Worker" className="mb-3 text-primary icon-custom" />
-              <Card.Title className="card-title-custom">Tim Profesional</Card.Title>
+              <Card.Text className="card-title-custom">Tim Profesional</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -23,7 +23,7 @@ function Superiority() {
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={cheap} alt="Cheap" className="mb-3 text-primary icon-custom" />
-              <Card.Title className="card-title-custom">Harga Terjangkau</Card.Title>
+              <Card.Text className="card-title-custom">Harga Terjangkau</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -31,7 +31,7 @@ function Superiority() {
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={fast} alt="Fast" className="mb-3 text-primary icon-custom" />
-              <Card.Title className="card-title-custom">Proses Cepat</Card.Title>
+              <Card.Text className="card-title-custom">Proses Cepat</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -39,7 +39,7 @@ function Superiority() {
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={guarantee} alt="Guarantee" className="mb-3 text-primary icon-custom" />
-              <Card.Title className="card-title-custom">Bergaransi</Card.Title>
+              <Card.Text className="card-title-custom">Bergaransi</Card.Text>
             </Card.Body>
           </Card>
         </Col>
