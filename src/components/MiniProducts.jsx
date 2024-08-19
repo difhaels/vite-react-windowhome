@@ -15,47 +15,47 @@ export default function MiniProducts() {
     const navigate = useNavigate();
 
     return (<div className="container-mini-products">
-        <Container className="px-5 pt-4">
+        <Container className="px-5 pt-4" data-aos="fade-up">
             <div className="text-center">
                 <h6 className="mb-4 text-center" style={{ backgroundColor: '#222F99', color: 'white', display: 'inline-block', padding: '10px 90px'}}>Produk Kami</h6>
             </div>
             <Row>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>
                 </Col>
-                <Col lg={2} xs={4} data-aos="fade-up" className="mb-4">
+                <Col lg={2} xs={4} className="mb-4">
                     <a onClick={()=>{navigate('/products')}} className="clickable">
                         <img src={image} alt="" className="img-fluid" />
                     </a>

@@ -14,7 +14,7 @@ export default function MiniServices() {
                 <h6 className="mb-4 text-center" style={{ backgroundColor: '#222F99', color: 'white', display: 'inline-block', padding: '10px 90px'}}>Layanan Kami</h6>
             </div>
             <Row>
-                <Col lg={3} xs={6} className="mb-4">
+                <Col lg={3} xs={6} className="mb-4" data-aos="fade-up">
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={pemasangan} />
@@ -22,7 +22,7 @@ export default function MiniServices() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col lg={3} xs={6} className="mb-4">
+                <Col lg={3} xs={6} className="mb-4" data-aos="fade-up">
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={pintu} />
@@ -30,7 +30,7 @@ export default function MiniServices() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col lg={3} xs={6} className="mb-4">
+                <Col lg={3} xs={6} className="mb-4" data-aos="fade-up">
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={kaca} />
@@ -38,7 +38,7 @@ export default function MiniServices() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col lg={3} xs={6} className="mb-4">
+                <Col lg={3} xs={6} className="mb-4" data-aos="fade-up">
                     <Card className="text-center rounded-0">
                         <Card.Body>
                             <Card.Img variant="top" className="rounded-0" src={kusen} />

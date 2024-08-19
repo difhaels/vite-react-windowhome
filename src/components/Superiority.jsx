@@ -11,7 +11,7 @@ function Superiority() {
     <Container className="my-5">
       <h3 className="text-center mb-4">Keunggulan Rumah Kusen Aluminium</h3>
       <Row className='g-1'>
-        <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={6} data-aos="fade-up" className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={worker} alt="Worker" className="mb-3 text-primary icon-custom" />
@@ -19,7 +19,7 @@ function Superiority() {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={6} data-aos="fade-up" className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={cheap} alt="Cheap" className="mb-3 text-primary icon-custom" />
@@ -27,7 +27,7 @@ function Superiority() {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={6} data-aos="fade-up" className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={fast} alt="Fast" className="mb-3 text-primary icon-custom" />
@@ -35,7 +35,7 @@ function Superiority() {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg={3} md={6} sm={6} xs={6} className="mb-4">
+        <Col lg={3} md={6} sm={6} xs={6} data-aos="fade-up" className="mb-4">
           <Card className="text-center card-custom">
             <Card.Body>
               <img src={guarantee} alt="Guarantee" className="mb-3 text-primary icon-custom" />
