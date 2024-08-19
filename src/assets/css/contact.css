@@ -1,8 +1,10 @@
+.contact-bg {
+    background-color: #f4f4f4;
+}
 .contact-container {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: #f4f4f4;
 }
 
 @media (max-width: 768px) {
@@ -11,7 +13,6 @@
         flex-direction: column; 
     }
 }
-
 
 .contact-left, .contact-right {
     flex: 1;
