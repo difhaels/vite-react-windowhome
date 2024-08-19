@@ -40,6 +40,7 @@ function Footer() {
         <Row>
           <Col className="text-center mt-3">
             <p>&copy; 2024 WindowHome. All rights reserved.</p>
+            <a>website by difhaels</a>
           </Col>
         </Row>
       </Container>
